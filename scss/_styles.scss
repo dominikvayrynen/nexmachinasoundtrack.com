@@ -118,7 +118,7 @@ li {
     /* twitter: */
     font-family: $onboard-font;
     font-weight: 200;
-    
+
     font-size: 13px;
     color: #FFFFFF;
     letter-spacing: 2.67px;
@@ -235,17 +235,12 @@ li {
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-.two {
-  display: none;
-}
-.three {
-}
-
+  .two {  display: none;  }
 }
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
+  .two {  display: none;  }
 }
 
 
@@ -257,12 +252,16 @@ li {
   }
   .hero-animation {
     > * {
-      min-height: 900px;
+      min-height: 700px;
     }
   }
 }
 
 /* Large and up */
 @media screen and (min-width: 64em) {
-
+  .hero-animation {
+    > * {
+      min-height: 900px;
+    }
+  }
 }
