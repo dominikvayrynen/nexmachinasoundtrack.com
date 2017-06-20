@@ -12,7 +12,8 @@
     "foundation-sites": "~6.2.0",
     "motion-ui": "~1.2.2",
     "fullpage.js": "^2.7.9",
-    "smoothstate": "^0.7.2"
+    "smoothstate": "^0.7.2",
+    "jquery": "^3.2.1"
   },
   "ignore": [
     "**/.*",

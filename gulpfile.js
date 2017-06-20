@@ -14,7 +14,13 @@ var sassPaths = [
 ];
 
 var jsPaths = [
-  // 'bower_components/jquery/dist/jquery.js',
+  'bower_components/jquery/dist/jquery.js',
+
+  'bower_components/gsap/src/minified/TweenMax.min.js',
+  'bower_components/gsap/src/minified/plugins/CSSPlugin.min.js',
+  'bower_components/gsap/src/minified/easing/EasePack.min.js',
+  'bower_components/gsap/src/minified/TweenLite.min.js',
+
   'bower_components/what-input/what-input.js',
   'bower_components/foundation-sites/dist/foundation.js',
   'bower_components/Scrollify/jquery.scrollify.js',

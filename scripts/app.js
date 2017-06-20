@@ -1,7 +1,7 @@
 
-$(function() {
-  $('#main').smoothState();
-});
+// $(function() {
+//   $('#main').smoothState();
+// });
 
 
 $(document).foundation();
@@ -9,6 +9,9 @@ $(document).foundation();
 // TweenLite.from("header", 0.5, {opacity: 0, y: -300 });
 //
 // TweenLite.from("section", 1, {opacity: 0, delay: 1});
+
+TweenLite.from(".content", 2, {opacity: 0, y: -500, delay: 0, ease: Expo.easeOut});
+
 
 TweenLite.from(".one", 2, {opacity: 0, y: -500, delay: .5, ease: Expo.easeOut});
 TweenLite.from(".two", 1.5, {opacity: 0, y: -500, delay: 1,  ease: Expo.easeOut});
