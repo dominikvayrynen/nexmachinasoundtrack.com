@@ -11,6 +11,7 @@ $(document).foundation();
 // TweenLite.from("section", 1, {opacity: 0, delay: 1});
 
 TweenLite.from(".content", 2, {opacity: 0, y: -500, delay: 0, ease: Expo.easeOut});
+TweenLite.from(".info", 2, {opacity: 0, delay: 1.5, ease: Expo.easeOut});
 
 
 TweenLite.from(".one", 2, {opacity: 0, y: -500, delay: .5, ease: Expo.easeOut});
