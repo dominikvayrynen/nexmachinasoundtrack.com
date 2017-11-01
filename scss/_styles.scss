@@ -226,10 +226,29 @@ li {
   background-size: 234px 78px;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   &:hover {
     transition: all 300ms;
     background-image: url('/images/buy-hover@3x.png');
+  }
+
+}
+
+.youtube {
+  display: block;
+  left: 30px;
+  width: 234px;
+  height: 39px;
+  background-image: url('/images/youtube-hover@3x.png');
+  background-image: url('/images/youtube@3x.png');
+  background-repeat: no-repeat;
+  background-size: 234px 39px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  &:hover {
+    transition: all 300ms;
+    background-image: url('/images/youtube-hover@3x.png');
   }
 
 }
