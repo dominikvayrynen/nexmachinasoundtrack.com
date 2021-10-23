@@ -30,4 +30,4 @@ Run `jekyll serve` and `gulp` each in it's own terminal window.
 ### 3. Deploy
 nexmachinasoundtrack.com is deployed automaticaly to github pages
 
-#### View the site at [ombord.co](http://ombord.co/)
+#### View the site at [nexmachinasoundtrack.com](http://nexmachinasoundtrack.com/)
