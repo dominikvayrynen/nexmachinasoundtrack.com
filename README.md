@@ -1,4 +1,4 @@
-# OMBŌRD
+# nexmachinasoundtrack.com
 
 ## Setup guide
 Make sure you have these installed...
@@ -28,6 +28,6 @@ Run `jekyll serve` and `gulp` each in it's own terminal window.
 #### View local server at [127.0.0.1:4000](http://127.0.0.1:4000/)
 
 ### 3. Deploy
-OMBŌRD is deployed automaticaly to github pages
+nexmachinasoundtrack.com is deployed automaticaly to github pages
 
 #### View the site at [ombord.co](http://ombord.co/)
