@@ -3,31 +3,36 @@
 ## Setup guide
 Make sure you have these installed...
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
+- [NodeJS](https://nodejs.org/en/) (v18 or greater)
 - [Git](https://git-scm.com/)
 
-and these...
-
-```bash
-gem install jekyll
-npm install -g bower
-```
-
-Then open the folder in terminal `cd path/to/ombord` and...
+Then open the folder in terminal `cd path/to/nexmachinasoundtrack.com` and...
 
 ### 1. Install dependencies
 ```bash
 npm install
-bower install
 ```
 
-### 2. Run localy
+### 2. Run locally
 
-Run `jekyll serve` and `gulp` each in it's own terminal window.
+Run `npm run dev` to start the development server.
 
-#### View local server at [127.0.0.1:4000](http://127.0.0.1:4000/)
+#### View local server at [localhost:4321](http://localhost:4321/)
 
-### 3. Deploy
-nexmachinasoundtrack.com is deployed automaticaly to github pages
+### 3. Build for production
+
+Run `npm run build` to build the site. The output will be in the `dist/` folder.
+
+### 4. Preview production build
+
+Run `npm run preview` to preview the production build locally.
+
+### 5. Deploy
+
+nexmachinasoundtrack.com can be deployed to any static hosting service (GitHub Pages, Netlify, Vercel, etc.)
 
 #### View the site at [nexmachinasoundtrack.com](http://nexmachinasoundtrack.com/)
+
+## Migration Notes
+
+This site has been migrated from Jekyll to Astro. The old Jekyll/Gulp build system has been replaced with Astro's modern build system.
