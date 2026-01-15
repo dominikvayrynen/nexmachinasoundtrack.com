@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://nexmachinasoundtrack.com',
+  site: 'https://nexmachina.aritunes.com',
   output: 'static',
   integrations: [],
 });

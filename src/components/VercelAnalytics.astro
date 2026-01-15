@@ -1,8 +1,6 @@
 ---
 // Vercel Analytics component
+import { inject } from '@vercel/analytics';
 ---
 
-<script>
-  import { inject } from '@vercel/analytics';
-  inject();
-</script>
+<script set:html={inject()}></script>
